@@ -1,0 +1,24 @@
+
+1.-Ir a la carpeta “/usr/local/share/fonts”
+
+2.-Ir a la web
+https://www.nerdfonts.com/
+
+3.-Ir a:
+fonts Downloads
+
+4.-Buscar y Descargar
+Hack Nerd Font
+
+5.-Mover el fichero descargado a la ruta actual
+mv /home/juanpedro/Descargas/Hack.zip .
+
+6.-Visualizar fichero comprimido
+7z l Hack.zip 
+
+7.-Descomprimir el fichero
+unzip Hack.zip
+
+8.-Ahora podemos borrar el fichero comprimido
+rm Hack.zip
+
