@@ -1,0 +1,5 @@
+Ventanita que se muestra al pulsar Windows+d
+
+1.-Instalar
+sudo apt install rofi
+

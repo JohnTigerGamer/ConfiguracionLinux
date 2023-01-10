@@ -1,0 +1,24 @@
+
+1.-Instalar
+apt install meson libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev libpcre2-dev libevdev-dev uthash-dev libev-dev libx11-xcb-dev libxcb-glx0-dev
+
+2.-En la carpeta ~/Descargas clonamos el siguiente repositorio
+git clone https://github.com/ibhagwan/picom.git
+
+3.-Entramos en la carpeta del picom
+cd picom
+
+4.-Ejecutamos
+git submodule update --init --recursive
+
+5.-Ejecutamos el siguiente comando teniendo instalado meson previamente
+meson --buildtype=release . build
+
+6.-Ojo es posible que de errores y falte instalar “libpcre”, si ocurre ejecutaremos
+sudo apt-get install libpcre3 libpcre3-dev
+
+7.-Una vez que no haya errores ejecutaremos
+ninja -C build
+
+8.-Ejecutamos
+sudo ninja -C build install

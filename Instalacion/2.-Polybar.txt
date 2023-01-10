@@ -1,0 +1,29 @@
+
+1.-Instalar
+apt install cmake cmake-data pkg-config python3-sphinx libcairo2-dev libxcb1-dev libxcb-util0-dev libxcb-randr0-dev libxcb-composite0-dev python3-xcbgen xcb-proto libxcb-image0-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-xkb-dev libxcb-xrm-dev libxcb-cursor-dev libasound2-dev libpulse-dev libjsoncpp-dev libmpdclient-dev libuv1-dev libnl-genl-3-dev
+
+2.-En la carpeta Descargas clonar el siguiente repositorio
+git clone --recursive https://github.com/polybar/polybar
+
+3.-Ir a la carpeta ~/Descargas/polybar
+
+4.-Crear carpeta
+mkdir build
+
+5.-Entramos
+cd !$
+
+6.-
+cmake ..
+
+7.-Si está todo ok estará todo en verde y la última línea nos dira:
+Build files have been written to: /home/juanpedro/Descargas/polybar/build
+
+8.-Ejecutar
+make -j$(nproc)
+
+9.-Nuevamente se comprueba que no hay ningún error, si lo hubierá tirar de google
+
+10.-Ejecutar
+sudo make install
+

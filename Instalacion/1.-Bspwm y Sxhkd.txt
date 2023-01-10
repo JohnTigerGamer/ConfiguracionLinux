@@ -1,0 +1,35 @@
+Bspwm -> Entorno grafico
+Sxhkd	-> Configurar atajos de teclado
+
+1.-Instalar
+	apt install build-essential git vim xcb libxcb-util0-dev libxcb-ewmh-dev libxcb-randr0-dev libxcb-icccm4-dev libxcb-keysyms1-dev libxcb-xinerama0-dev libasound2-dev libxcb-xtest0-dev libxcb-shape0-dev
+
+2.-apt update
+
+3.-con usuario normal clonar estos dos repositorios en /Descargas (Así descargamos los instaladores)
+	git clone https://github.com/baskerville/bspwm.git
+	git clone https://github.com/baskerville/sxhkd.git
+
+4.-En la carpeta de bspwm ejecutar:
+	sudo make
+	sudo make install
+
+5.-En la carpeta de Sxhkd
+	sudo make
+	sudo make install
+
+6.-sudo apt install bspwm
+
+7.-crear carpeta de configuracion para bspwm y para sxhkd
+	mkdir ~/.config/bspwm
+	mkdir ~/.config/sxhkd
+
+8.-En la carpeta ~/Descargas/bspwm/examples existen dos ficheros que copiaremos
+	bspwmrc
+	sxhkdrc
+	
+	cp examples/bspwmrc ~/.config/bspwm/bspwmrc
+	chmod +x !$
+	
+	cp examples/sxhkdrc ~/.config/sxhkd/sxhkdrc
+	chmod +x !$

@@ -1,0 +1,15 @@
+
+1.-Reiniciamos el equipo
+kill -9 -1
+
+2.-Seleccionamos que deseamos iniciar con bspwm y nos logueamos
+
+3.-Una vez entrado no aparecerá nada
+
+4.-Pulsar “Windows+Enter”
+
+5.-Si no funciona puede ser porque no este bien instalado kitty. Ejecutamos
+sudo apt install kitty
+
+6.-Reniciamos y probamos de nuevo
+

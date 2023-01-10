@@ -1,0 +1,41 @@
+
+BSPWN
+Super -> Es la tecla de Windows
+Super + alt + r					-> Refrescar Consola
+
+Para modificar Tamaño de la ventana de consola
+Super + s
+Super + botón dcho y arrastrar ventana
+Super + alt  + Flechas		-> Cambia tamaño de la consola
+Super + ctrl + Flechas		-> Desplazar ventana de consola
+
+ABRIR NUEVA VENTANA
+Super + Enter					-> Abrir nueva ventana
+Super + q							-> Cerrar ventana actual
+
+ABRIR CONSOLA EN LA MISMA VENTANA
+Ctrl + Shift + Enter			-> Abre consola justo debajo
+Ctrl + Arriba						-> Pasa el cursor a la ventana de arriba
+Ctrl + Abajo						-> Pasa el cursor a la ventana de abajo
+
+RESIZE
+Ctrl + Shift + R					-> Activar Resize de las ventanas
+Ctrl + T								-> Agrandar Ventana
+Ctrl + S								-> Disminuir Ventana
+
+
+
+Super + Flechas					-> Desplazarte por las ventanas
+Super + 1,2,3,4...				-> Cambia entre las ventanas del polybar
+Super + Shift + 2				-> Enviar ventana activa a la ventana 2 del polybar
+Super + t							-> Centrar ventana a toda la pantalla
+
+Super + d							-> Abrir rofi para iniciar un nuevo programa
+Super + h							-> Abrir CherryTree
+Super + g							-> Abrir Google Chrome
+
+
+
+ROFI
+Para abrir ventana auxiliar de rofi
+	rofi -show run
